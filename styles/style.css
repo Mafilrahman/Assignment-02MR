@@ -1,3 +1,11 @@
+@media only screen and (max-width:688px){
+  .container{
+    width: 100%;
+  }
+} 
+  
+
+
 /*--------------- common styles------------------ */
 * {
     font-family: "Work Sans", sans-serif;
