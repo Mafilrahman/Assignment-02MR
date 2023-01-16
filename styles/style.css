@@ -3,9 +3,6 @@
     width: 100%;
   }
 } 
-  
-
-
 /*--------------- common styles------------------ */
 * {
     font-family: "Work Sans", sans-serif;
@@ -355,3 +352,129 @@
   color: #424242;
   padding: 40px;
   }
+
+  @media only screen and (max-width:576px) {
+    .navigation{
+ flex-direction: column;
+ 
+    } 
+   .tittle{
+     font-size: 40px;
+     margin-left: 0;
+   }
+   .banner-title{
+     font-size: 50px;
+   }
+   .heading p{
+     font-size: 10px;
+     margin-bottom: 30px;
+   }
+ .banner,.banner-details{
+     width: 100%;
+     margin-bottom: 50px;
+ }
+ .banner-image{
+     position: none;
+     left: 0;
+     height: 350px;
+    
+ }
+ .primary-btn{
+     position: none;
+     left:80px;
+ }
+ .feature-image{
+     grid-template-columns: repeat(1,1fr);
+     margin-bottom: 30px;
+ 
+ }
+ .feature-img{
+     width: 80%;
+ }
+ .feature-title{
+     margin-bottom: 30px;
+ }
+ .features{
+     flex-direction: column;
+ }
+ .feature-details{
+     position: relative;
+     left:0;
+     width: 80%;
+     height: auto; 
+ }
+ .feature-details p{
+     margin-bottom: 30px;
+ }
+ .Features-you-will-love{
+     flex-direction: column;
+     height: auto;
+     width: 100%;
+     margin: 0;
+     padding: 0;
+ }
+ .architect-img {
+     width: 80%;
+     height:auto;
+   }
+   
+   .info-container{
+     width: 70%;
+     height: auto;
+     padding: 10px;
+   }
+   .details{
+     width: 100%;
+   }
+   .somefact {
+     padding: 20px;
+   }
+   .box{
+     flex-direction: column;
+   }
+  .sponser{
+     flex-direction: column;
+  }
+ 
+  .sponser-info {
+     width: 80%;
+     height: auto;
+   padding-left: 10px;
+   padding-right: 0;
+   margin-bottom: 30px;
+ }
+ .sponser-title{
+     position: relative;
+     left:0;
+ }
+ .sponser-para{
+     position: relative;
+     left:0; 
+ }
+ .blogs{
+     grid-template-columns: repeat(1,1fr);
+     margin-bottom: 10px;
+     
+   }
+ .top-blogs{
+     flex-direction: column;
+   }
+   .blog-info{
+     margin-left: 0;
+   }
+   .footer{
+  margin: 0;
+     background: #FFF4E7;
+     border-radius: 8px;
+     width: 100%;
+     height: auto;
+   }
+   .foter-para{
+     font-weight:200;
+ font-size: 15px;
+ text-align: center;
+ color: #424242;
+ padding: 10px;
+     
+ }
+ }
